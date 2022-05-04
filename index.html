@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Estilos personalizados -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="grid">
+      <!-- Cabecera (Logo y menú de navegación) -->
+      <div class="header">
+        <div class="wrapper">
+          <header class="header-content">
+            <a href="/">
+              <img
+                src="https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg"
+                width="80px"
+                alt=""
+              />
+            </a>
+            <!-- Menu -->
+            <span id="open-menu-button" class="icon-menu"></span>
+            <nav id="main-nav" class="main-nav">
+              <span id="close-menu-button" class="icon-close"></span>
+              <ul class="main-nav__menu">
+                <li class="main-nav__item">
+                  <a class="main-nav__link" href="/">Inicio</a>
+                </li>
+                <li class="main-nav__item">
+                  <a class="main-nav__link" href="./quienes-somos.html">¿Quiénes somos?</a>
+                </li>
+                <li class="main-nav__item">
+                  <a class="main-nav__link" href="./proyectos.html">Proyectos</a>
+                </li>
+                <li class="main-nav__item">
+                  <a class="main-nav__link" href="./contacto.html">Contacto</a>
+                </li>
+              </ul>
+            </nav>
+          </header>
+        </div>
+      </div>
+
+      <main>
+      <!-- Banner principal -->
+      <section class="banner l-big-section">
+        <div class="wrapper">
+          <div class="banner__content">
+            <div class="banner__container">
+              <h1 class="banner__title">
+                Ahora la educación online es el futuro
+              </h1>
+              <p class="banner__subtitle">
+                Si eres estudiante de colegio, instituto o universidad, estudia
+                en EDteam con 50% de descuento y no te detengas
+              </p>
+              <!-- <a href="#" class="btn">Postula al programa</a> -->
+              <div>
+                <a class="btn btn--white" href="#">Escríbenos ya mismo!</a>
+              </div>
+              <!-- <a href="#" class="btn btn--ghost">Postula al programa</a> -->
+            </div>
+
+            <div>
+              <img
+                src="https://ed.team/images/utils/conectados/banner/people.svg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- <div class="blog l-big-section">
+        <div class="wrapper">
+          <h2>Últimos artículos</h2>
+          <div class="blog-content">
+            <article>
+              <div>
+                <a href="#">
+                  <img
+                    src="https://edteam-media.s3.amazonaws.com/blogs/original/8d3165c7-a480-420b-beae-2938bad63432.jpg"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div>
+                <h3>
+                  ¿Musk quiere controlar el debate público a través de Twitter?
+                  | EDchisme 21
+                </h3>
+                <p>Lectura de 8min</p>
+              </div>
+            </article>
+
+            <article>
+              <div>
+                <a href="#">
+                  <img
+                    src="https://edteam-media.s3.amazonaws.com/blogs/original/8d3165c7-a480-420b-beae-2938bad63432.jpg"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div>
+                <h3>
+                  ¿Musk quiere controlar el debate público a través de Twitter?
+                  | EDchisme 21
+                </h3>
+                <p>Lectura de 8min</p>
+              </div>
+            </article>
+
+            <article>
+              <div>
+                <a href="#">
+                  <img
+                    src="https://edteam-media.s3.amazonaws.com/blogs/original/8d3165c7-a480-420b-beae-2938bad63432.jpg"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div>
+                <h3>
+                  ¿Musk quiere controlar el debate público a través de Twitter?
+                  | EDchisme 21
+                </h3>
+                <p>Lectura de 8min</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div> -->
+
+        <!-- Servicios -->
+        <section class="services l-big-section">
+          <h2 class="services__title">Nuestros servicios</h2>
+          <div class="wrapper">
+            <div class="services__content">
+              <article class="services__item">
+                <span class="icon-game-controller"></span>
+                <h3 class="services__subtitle">Servicio 1</h3>
+                <p class="services__description">
+                  Diseñamos tu presencia en internet con apariencia profesional
+                </p>
+              </article>
+
+              <article class="services__item">
+                <span class="icon-shopping-cart"></span>
+                <h3 class="services__subtitle">Servicio 1</h3>
+                <p class="services__description">
+                  Diseñamos tu presencia en internet con apariencia profesional
+                </p>
+              </article>
+
+              <article class="services__item">
+                <span class="icon-keyboard"></span>
+                <h3 class="services__subtitle" |>Servicio 1</h3>
+                <p class="services__description">
+                  Diseñamos tu presencia en internet con apariencia profesional
+                </p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <!-- Nosotros -->
+        <section class="about l-big-section">
+          <div class="wrapper">
+            <div class="about__content">
+              <div class="about__item">
+                <h2 class="about__title">Sobre nosotros</h2>
+                <p class="about__description">
+                  Este es el sitio web de nuestra agencia de desarrollo.
+                </p>
+                <!-- <a href="/proyectos.html" class="btn"
+                  >Ver experiencia</a>
+                <a href="/proyectos.html" class="btn btn--white"
+                >Ver experiencia</a>
+                <a href="/proyectos.html" class="btn btn--ghost"
+                >Ver experiencia</a> -->
+                <a href="/proyectos.html" class="btn btn--ghost btn--white"
+                  >Ver experiencia</a
+                >
+              </div>
+              <img
+                class="about__background"
+                src="/images/bg-section.jpg"
+                alt="Alumnos estudiando"
+              />
+            </div>
+          </div>
+        </section>
+
+        <!-- Proyectos -->
+        <section class="last-projects l-big-section">
+          <h2 class="last-projects__title">Últimos proyectos</h2>
+          <div class="wrapper">
+            <div class="last-projects__content">
+              <a href="#" class="overlay-card">
+                <article class="overlay-card__item">
+                  <div class="overlay-card__container">
+                    <h3 class="overlay-card__subtitle">Título proyecto</h3>
+                    <p class="overlay-card__description">Descripción proyecto</p>
+                  </div>
+                  <img
+                    class="overlay-card__img"
+                    src="./images/project-1.jpg"
+                    alt="Proyecto 1"
+                  />
+                </article>
+              </a>
+
+
+              <a href="#" class="overlay-card">
+                <article class="overlay-card__item">
+                  <div class="overlay-card__container">
+                    <h3 class="overlay-card__subtitle">Título proyecto</h3>
+                    <p class="overlay-card__description">Descripción proyecto</p>
+                  </div>
+                  <img
+                    class="overlay-card__img"
+                    src="./images/project-2.jpg"
+                    alt="Proyecto 1"
+                  />
+                </article>
+              </a>
+
+
+              <a href="#" class="overlay-card">
+                <article class="overlay-card__item">
+                  <div class="overlay-card__container">
+                    <h3 class="overlay-card__subtitle">Título proyecto</h3>
+                    <p class="overlay-card__description">Descripción proyecto</p>
+                  </div>
+                  <img
+                    class="overlay-card__img"
+                    src="./images/project-3.jpg"
+                    alt="Proyecto 1"
+                  />
+                </article>
+              </a>
+
+
+              <a href="#" class="overlay-card">
+                <article class="overlay-card__item">
+                  <div class="overlay-card__container">
+                    <h3 class="overlay-card__subtitle">Título proyecto</h3>
+                    <p class="overlay-card__description">Descripción proyecto</p>
+                  </div>
+                  <img
+                    class="overlay-card__img"
+                    src="./images/project-4.jpg"
+                    alt="Proyecto 1"
+                  />
+                </article>
+              </a>
+
+
+              <a href="#" class="overlay-card">
+                <article class="overlay-card__item">
+                  <div class="overlay-card__container">
+                    <h3 class="overlay-card__subtitle">Título proyecto</h3>
+                    <p class="overlay-card__description">Descripción proyecto</p>
+                  </div>
+                  <img
+                    class="overlay-card__img"
+                    src="./images/project-5.jpg"
+                    alt="Proyecto 1"
+                  />
+                </article>
+              </a>
+
+
+              <a href="#" class="overlay-card">
+                <article class="overlay-card__item">
+                  <div class="overlay-card__container">
+                    <h3 class="overlay-card__subtitle">Título proyecto</h3>
+                    <p class="overlay-card__description">Descripción proyecto</p>
+                  </div>
+                  <img
+                    class="overlay-card__img"
+                    src="./images/project-1.jpg"
+                    alt="Proyecto 1"
+                  />
+                </article>
+              </a>
+
+
+            </div>
+          </div>
+        </section>
+
+        <!-- Work-with-us -->
+        <section class="work-with-us l-big-section">
+          <div class="wrapper">
+            <div class="work-with-us__content">
+              <h2 class="work-with-us__title">¿Quieres trabajar con nosotros?</h2>
+              <p class="work-with-us__subtitle">
+                Es momento de convertir tu idea en algo real. Puedes contactarnos
+                en nuestras redes sociales<br />
+                o enviando un correo a:
+              </p>
+              <a href="mailto:contacto@edsoft.com" class="work-with-us__btn btn"
+                >contacto@edsoft.com</a
+              >
+              <div class="social-networks">
+                <a class="social-networks__link" href="#" target="_blank"
+                  ><span class="icon-facebook"></span
+                ></a>
+                <a class="social-networks__link" href="#" target="_blank"
+                  ><span class="icon-twitter"></span
+                ></a>
+                <a class="social-networks__link" href="#" target="_blank"
+                  ><span class="icon-youtube"></span
+                ></a>
+                <a class="social-networks__link" href="#" target="_blank"
+                  ><span class="icon-facebook"></span
+                ></a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <div class="wrapper">
+          <div class="footer__content">
+            <p class="footer__description">Todos los derechos reservados © 2020 | EDsoft tech labs agency</p>
+          </div>
+        </div>
+      </footer>
+
+
+
+
+
+
+      <!-- <div class="body wrapper">
+        <aside>
+          <nav>
+            <details open>
+              <summary>Contenido</summary>
+              <ol>
+                <li>
+                  <a href="#">HTML5</a>
+                </li>
+                <li>
+                  <a href="#">CSS3</a>
+                </li>
+                <li>
+                  <a href="#">Javascript</a>
+                </li>
+              </ol>
+            </details>
+          </nav>
+        </aside>
+
+        <main class="main">
+          <h1>Conceptos generales de la programación</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate
+            tempore dignissimos corrupti necessitatibus odit nihil ipsam non est
+            deleniti, optio eum dolores blanditiis, nostrum iusto amet nobis
+            velit quisquam accusamus?
+          </p>
+          <div class="image-container">
+            <img
+              src="https://neliosoftware.com/es/wp-content/uploads/sites/3/2018/07/aziz-acharki-549137-unsplash-1200x775.jpg"
+              alt=""
+            />
+          </div>
+
+          <h2>Setup</h2>
+
+          <img
+            src="https://1000marcas.net/wp-content/uploads/2020/02/logo-Chrome.png"
+            alt=""
+            width="100px"
+          />
+          <h3>Google Chrome</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
+            at, dolores ad distinctio ipsam vitae harum veniam! Commodi magnam
+            saepe repellat expedita, earum accusantium, quis voluptas, debitis
+            assumenda rerum numquam!
+          </p>
+
+          <img
+            src="https://1000marcas.net/wp-content/uploads/2020/02/logo-Chrome.png"
+            alt=""
+            width="100px"
+          />
+          <h3>Google Chrome</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
+            at, dolores ad distinctio ipsam vitae harum veniam! Commodi magnam
+            saepe repellat expedita, earum accusantium, quis voluptas, debitis
+            assumenda rerum numquam!
+          </p>
+        </main>
+      </div>
+      <footer>Footer</footer>
+    </div> -->
+    <script src="menu.js"></script>
+  </body>
+</html>
