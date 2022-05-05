@@ -305,6 +305,10 @@ select {
   }
 }
 
+.logo {
+  display: block;
+}
+
 .card {
   border-radius: var(--border-radius);
   overflow: hidden;
